@@ -1,0 +1,15 @@
+.active {
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+button {
+  border: 2px solid white;
+  color: white;
+  background: lightgreen;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+button:disabled {
+  background: red;
+}
